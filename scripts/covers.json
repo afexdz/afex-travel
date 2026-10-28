@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "slug": "qafila",
+  "tint": "#0B1530",
+  "hi": "#E8A25C",
+  "sections": [
+   "#omra@0.55",
+   "#dest@2.2"
+  ]
+ }
+]
