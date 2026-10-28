@@ -13,15 +13,13 @@
 <meta property="og:locale" content="fr_DZ">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/schibsted.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-@font-face{font-family:"Fraunces";src:url(/assets/fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
-@font-face{font-family:"Figtree";src:url(/assets/fonts/figtree.woff2) format("woff2");font-weight:300 900;font-display:swap}
+@font-face{font-family:"Schibsted";src:url(/assets/fonts/schibsted.woff2) format("woff2");font-weight:400 900;font-display:swap}
 :root{
   --bg:#FFFFFF; --soft:#EEF2F2; --ink:#12212B; --ink2:#55636B; --line:#DDE5E6; --sea:#0F5C63; --seaD:#0A454B; --seaL:#DCEDEC;
   --wa:#117A43; --waD:#0C5E33;
-  --s:"Fraunces",Georgia,serif; --t:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --s:"Schibsted",system-ui,sans-serif; --t:"Schibsted",system-ui,-apple-system,"Segoe UI",sans-serif;
   --g:clamp(16px,3vw,40px); --max:1240px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -34,7 +32,7 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 
 /* en-tête */
 .top{display:flex;align-items:center;justify-content:space-between;gap:12px;height:64px;border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:baseline;gap:8px;font-family:var(--s);font-weight:500;font-size:1.5rem;line-height:1;font-variation-settings:"opsz" 72}
+.brand{display:flex;align-items:baseline;gap:8px;font-family:var(--s);font-weight:800;font-size:1.4rem;line-height:1;letter-spacing:-.03em}
 .brand span{font-family:var(--t);font-size:.95rem;font-weight:600;color:var(--sea)}
 .wa{display:inline-flex;align-items:center;gap:8px;background:var(--wa);color:#fff;font-weight:600;padding:9px 16px;border-radius:999px;transition:background .2s}
 .wa:hover{background:var(--waD)}
@@ -42,7 +40,7 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 
 /* introduction et filtres */
 .intro{display:grid;grid-template-columns:1.2fr 1fr;gap:20px 48px;align-items:end;padding-top:56px;padding-bottom:36px}
-.intro h1{font-family:var(--s);font-weight:400;font-size:clamp(2.3rem,5vw,4.2rem);line-height:1.04;letter-spacing:-.005em;font-variation-settings:"opsz" 96}
+.intro h1{font-family:var(--s);font-weight:700;font-size:clamp(2.2rem,4.8vw,4rem);line-height:1.02;letter-spacing:-.035em}
 .intro p{color:var(--ink2);font-size:1.05rem;max-width:44ch}
 .seg{grid-column:1/-1;display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
 .tab{padding:9px 18px;border-radius:999px;font-weight:600;font-size:.94rem;box-shadow:inset 0 0 0 1px var(--line);transition:background .2s,color .2s,box-shadow .2s}
@@ -70,9 +68,9 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 .row .txt{flex:1;min-width:0}
 .plate{flex:none;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-width:58px;height:50px;border-radius:10px;background:var(--seaL);color:var(--seaD);line-height:1}
 .plate span{font-size:.62rem;font-weight:700;letter-spacing:.06em}
-.plate b{font-family:var(--s);font-weight:400;font-size:1.45rem}
+.plate b{font-family:var(--s);font-weight:700;font-size:1.35rem;letter-spacing:-.02em}
 .plate.off{background:var(--soft);color:var(--ink2)}
-.row h2{font-family:var(--s);font-weight:400;font-size:1.45rem;line-height:1.1}
+.row h2{font-family:var(--s);font-weight:700;font-size:1.3rem;line-height:1.15;letter-spacing:-.02em}
 .row small{display:block;font-size:.86rem;color:var(--ink2);margin-top:2px}
 .go{flex:none;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;box-shadow:inset 0 0 0 1px var(--line);transition:background .2s,color .2s,box-shadow .2s}
 .go svg{width:18px;height:18px}
@@ -82,7 +80,7 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 /* bas de page */
 .cta{background:var(--ink);color:#fff}
 .cta .w{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;padding-top:44px;padding-bottom:44px}
-.cta h2{font-family:var(--s);font-weight:400;font-size:clamp(1.7rem,3.4vw,2.5rem);line-height:1.05}
+.cta h2{font-family:var(--s);font-weight:700;font-size:clamp(1.6rem,3.2vw,2.4rem);line-height:1.05;letter-spacing:-.03em}
 .cta p{color:#AFC0C4;margin-top:6px}
 footer .w{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-top:22px;padding-bottom:28px;color:var(--ink2);font-size:.88rem}
 footer a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
