@@ -1,0 +1,7 @@
+assets/img/hero/hublot.webp 1507812984078-917a274065be 1800 0 70
+assets/img/hero/nuages.webp 1545132147-d037e6c54cfd 1800 0 70
+assets/img/hero/aile.webp 1775214593108-5d577e88d219 1800 0 70
+assets/img/hero/panneau.webp 1690964099679-46adb512b5cf 1600 0 70
+assets/img/dest/paris.webp 1632168594270-831d770aa8c3 1400 0 70
+assets/img/dest/montreal.webp 1695391006479-d7cd0642f4a5 1400 0 70
+assets/img/hero/comptoirs.webp 1762818106013-74323d5fcc80 1600 0 70

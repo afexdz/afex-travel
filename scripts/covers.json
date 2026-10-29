@@ -1,11 +1,1 @@
-[
- {
-  "slug": "qafila",
-  "tint": "#0B1530",
-  "hi": "#E8A25C",
-  "sections": [
-   "#omra@0.55",
-   "#dest@2.2"
-  ]
- }
-]
+[{"slug": "qafila", "tint": "#0B1530", "hi": "#E8A25C", "sections": ["#omra@0.55", "#dest@2.2"]}, {"slug": "ofoq", "tint": "#0A1220", "hi": "#F0883E", "sections": ["#dep@0.3", "#cal@0.4"]}]
